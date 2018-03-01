@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include poav1 *.css
+recursive-include poav1 *.csv
+recursive-include poav1 *.html
+recursive-include poav1 *.ico
+recursive-include poav1 *.js
+recursive-include poav1 *.json
+recursive-include poav1 *.md
+recursive-include poav1 *.png
+recursive-include poav1 *.py
+recursive-include poav1 *.svg
+recursive-include poav1 *.txt
+recursive-exclude poav1 *.pyc
